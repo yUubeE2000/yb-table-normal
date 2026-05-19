@@ -1,15 +1,27 @@
 {
-  "name": "My BMS Table",
-  "symbol": "⚪︎",
-  "dataUrl": "https://your-gas-url/exec",
-  "siteDescription": "ここにサイトの説明を記載してください",
+  "name": "yb通常難易度表",
+  "symbol": "☆",
+  "dataUrl": "https://script.google.com/macros/s/AKfycbwqcgZuMa3oY3CasPd383AxxqlOJZnK2FFf5wzTEPjIG-mB9I9hjsIX9o-Bq2MqRom00A/exec",
+  "siteDescription": "※作成中",
   "lightTheme": "light",
   "darkTheme": "dark",
   "darkMode": "system",
   "columns": [
     { "header": "Lv", "type": "level" },
-    { "header": "Title", "type": "link", "property": "title", "url": "{{url}}" },
-    { "header": "Artist", "type": "text", "property": "artist" },
-    { "header": "Chart", "type": "badge", "label": "DL", "url": "{{url_diff}}", "align": "center" }
+    { "header": "Title", "type": "link", "property": "title", "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5={{md5}}", "width": "40%", "align": "center" },
+    { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}", "width": "25%", "align": "center" },
+    { "header": "Comment", "type": "text", "property": "comment", "width": "20%", "ellipsis": true, "align": "center" }
+  ],
+  "course":[
+    {"name":"yb段位認定 初段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["20f8bccdf98aedae3fa2d867a933525c","d787fd082e1c209ecf61c3042fbe473a","38ad38ace94a4afbc875b8ad9d708ae5","dd0e52eb8730839cb2d77af23ff0421a"]},
+    {"name":"yb段位認定 二段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["6035dc4923c5c75040b01c6e174e91c6","0fbe05240c1fd823c7cab697f6992ca8","068f6c36ae677d4204a71830cac2af50","aa09f1024ef6442797f7475f9ad18daa"]},
+    {"name":"yb段位認定 三段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["0a4ae5ef162b58ea31e52c3dfe6efb6e","7ee84a7ee5bd58a7518473b7bd356586","b52526c03e9d76692ace7bce1248a729","60cc070b8d49e38d84d2e1c3b5affdf7"]},
+    {"name":"yb段位認定 四段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["a4354798eace09043fac6b3adf3854a2","e6bce1ffc2335c0dc5ca9af153fc044a","369e3d9a492a688eac334ffebb14bd05","0103e4023259128f0ec01023a3d3e8ee"]},
+    {"name":"yb段位認定 五段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["3dc779fd8c7db6de399ba8393c8f7732","03518124c76631872b5ac4b31eb4d3da","e6c3b3ee3b307ffbc5b959909eb34232","4a05e7592e95856b313ded54d385fbc9"]},
+    {"name":"yb段位認定 六段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["7720d0d3d5d62f58befa86875db1988d","e5b72405f4caea037553c69057c7b48c","eefb650199700b7682f930b597c2c50c","4845be42e4d91de9a2dffea05f96dc5f"]},
+    {"name":"yb段位認定 七段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["44c37cd5906a98b3a64ed9c093b27b85","d48a9c4bd811543eee450e0f530486d3","f0f71be0bf92880acfd724b5aa0b85a5","07b991d935793555f56e43781a5d7789"]},
+    {"name":"yb段位認定 八段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["4cf90838e9a838a4becd786b51c979a9","3a60d5fccd8652dc6ecdbb7b36c68193","1fff659589cb9cfb2414933b3589d47a","e70b8c18644b7f2fca66ba7d32b45179"]},
+    {"name":"yb段位認定 九段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["86f7b6ff50c1b345e0df3109e2fb8aa3","bf7823bf79a7477839c586e0ebb50cae","72341b3417b72cdf78488a9e0f22797a","a9028a4412fa595ebdad943067796277"]},
+    {"name":"yb段位認定 十段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["ee14dfeb772a436de89924c2247824ee","d413b6d334955475b6dc6bc9edeb9880","d14177463f0d1e197a4c65deeecbcda5","139571e69fb77ba1605a70b865651a68"]}
   ]
 }
