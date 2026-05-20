@@ -3,14 +3,18 @@
   "symbol": "☆",
   "dataUrl": "https://script.google.com/macros/s/AKfycbwqcgZuMa3oY3CasPd383AxxqlOJZnK2FFf5wzTEPjIG-mB9I9hjsIX9o-Bq2MqRom00A/exec",
   "siteDescription": "※作成中",
-  "lightTheme": "light",
   "darkTheme": "dark",
-  "darkMode": "system",
+  "darkMode": "dark",
+  "tableStyle.stripe": "True",
   "columns": [
     { "header": "Lv", "type": "level", "align": "center" },
     { "header": "Title", "type": "link", "property": "title", "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5={{md5}}", "width": "40%", "align": "center" },
-    { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}", "width": "25%", "align": "center" },
-    { "header": "Comment", "type": "text", "property": "comment", "width": "20%", "ellipsis": true, "align": "center" }
+    { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}", "width": "20%", "align": "center" },
+    { "header": "Link", "type": "badge", "label": "Mocha-Repository", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}", "align": "center" },
+    { "header": "MaxBPM", "type": "text", "property": "maxbpm", "width": "10%", "ellipsis": true, "align": "center" },
+    { "header": "MinBPM", "type": "text", "property": "minbpm", "width": "10%", "ellipsis": true, "align": "center" },
+    { "header": "Notes", "type": "text", "property": "notes", "width": "5%", "ellipsis": true, "align": "center" },
+    { "header": "Comment", "type": "text", "property": "comment", "width": "10%", "ellipsis": true, "align": "center" }
   ],
   "course":[
     {"name":"yb段位認定 初段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["20f8bccdf98aedae3fa2d867a933525c","d787fd082e1c209ecf61c3042fbe473a","38ad38ace94a4afbc875b8ad9d708ae5","dd0e52eb8730839cb2d77af23ff0421a"]},
