@@ -11,8 +11,8 @@
     { "header": "Title", "type": "link", "property": "title", "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5={{md5}}", "width": "40%", "align": "center" },
     { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}", "width": "20%", "align": "center" },
     { "header": "Link", "type": "badge", "label": "Mocha-Repository", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}", "align": "center" },
-    { "header": "MaxBPM", "type": "text", "property": "maxbpm", "width": "10%", "ellipsis": true, "align": "center" },
-    { "header": "MinBPM", "type": "text", "property": "minbpm", "width": "10%", "ellipsis": true, "align": "center" },
+    { "header": "BPM", "type": "text", "property": "maxbpm", "width": "4%", "nowrap": true, "align": "right" },
+    { "header": " ", "type": "text", "property": "minbpm", "width": "4%", "nowrap": true, "align": "left" },
     { "header": "Notes", "type": "text", "property": "notes", "width": "5%", "ellipsis": true, "align": "center" },
     { "header": "Comment", "type": "text", "property": "comment", "width": "10%", "ellipsis": true, "align": "center" }
   ],
