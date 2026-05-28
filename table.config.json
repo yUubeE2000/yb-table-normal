@@ -8,23 +8,22 @@
   "tableStyle.stripe": "True",
   "columns": [
     { "header": "Lv", "type": "level", "align": "center" },
-    { "header": "Title", "type": "link", "property": "title", "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5={{md5}}", "width": "40%", "align": "center" },
-    { "header": "Link", "type": "badge", "label": "🔗", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}", "align": "center" },
+    { "header": "Title", "type": "link", "property": "title", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}", "width": "40%", "align": "center" },
     { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}", "width": "20%", "align": "center" },
     { "header": "BPM", "type": "text", "property": "mergebpm", "width": "7%", "nowrap": true, "align": "center" },
     { "header": "Notes", "type": "text", "property": "notes", "width": "3%", "ellipsis": true, "align": "center" },
     { "header": "Comment", "type": "text", "property": "comment", "width": "6%", "ellipsis": true, "align": "center" }
   ],
   "course":[
-    {"name":"yb段位認定 初段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["20f8bccdf98aedae3fa2d867a933525c","d787fd082e1c209ecf61c3042fbe473a","38ad38ace94a4afbc875b8ad9d708ae5","dd0e52eb8730839cb2d77af23ff0421a"]},
-    {"name":"yb段位認定 二段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["6035dc4923c5c75040b01c6e174e91c6","0fbe05240c1fd823c7cab697f6992ca8","068f6c36ae677d4204a71830cac2af50","aa09f1024ef6442797f7475f9ad18daa"]},
-    {"name":"yb段位認定 三段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["0a4ae5ef162b58ea31e52c3dfe6efb6e","7ee84a7ee5bd58a7518473b7bd356586","b52526c03e9d76692ace7bce1248a729","60cc070b8d49e38d84d2e1c3b5affdf7"]},
-    {"name":"yb段位認定 四段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["a4354798eace09043fac6b3adf3854a2","e6bce1ffc2335c0dc5ca9af153fc044a","369e3d9a492a688eac334ffebb14bd05","0103e4023259128f0ec01023a3d3e8ee"]},
-    {"name":"yb段位認定 五段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["3dc779fd8c7db6de399ba8393c8f7732","03518124c76631872b5ac4b31eb4d3da","e6c3b3ee3b307ffbc5b959909eb34232","4a05e7592e95856b313ded54d385fbc9"]},
-    {"name":"yb段位認定 六段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["7720d0d3d5d62f58befa86875db1988d","e5b72405f4caea037553c69057c7b48c","eefb650199700b7682f930b597c2c50c","4845be42e4d91de9a2dffea05f96dc5f"]},
-    {"name":"yb段位認定 七段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["44c37cd5906a98b3a64ed9c093b27b85","d48a9c4bd811543eee450e0f530486d3","f0f71be0bf92880acfd724b5aa0b85a5","07b991d935793555f56e43781a5d7789"]},
-    {"name":"yb段位認定 八段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["4cf90838e9a838a4becd786b51c979a9","3a60d5fccd8652dc6ecdbb7b36c68193","1fff659589cb9cfb2414933b3589d47a","e70b8c18644b7f2fca66ba7d32b45179"]},
-    {"name":"yb段位認定 九段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["86f7b6ff50c1b345e0df3109e2fb8aa3","bf7823bf79a7477839c586e0ebb50cae","72341b3417b72cdf78488a9e0f22797a","a9028a4412fa595ebdad943067796277"]},
-    {"name":"yb段位認定 十段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["ee14dfeb772a436de89924c2247824ee","d413b6d334955475b6dc6bc9edeb9880","d14177463f0d1e197a4c65deeecbcda5","139571e69fb77ba1605a70b865651a68"]}
+    {"name":"yb段位認定 初段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["13214121835e091100c1a9c8c541dd0c54ce574ade33f124c0c902cf1444d490","94874effc92441a3ae03f9e39ed6b1b6d19e65a2dafaa369bfc0c1d0ede70eec","a3bbcc36403bf013281203dc34ac554902de9e5274cd73f0c748bd2992e8f16a","57b4dd8e561e60a2278eafcde70739d46e36ee972b44a748fe9d69aa9b8c4ddf"]},
+    {"name":"yb段位認定 二段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["76cd23a5ceeeed136b0f43f176b54b6d5d704df869f5c41e3e483682cc9ba0d7","5ead14cdb2b1edcc6ece258c85279c5de8c53da50816036f799302d797a4964f","ea2a6ea743426390f58516b49b30328c5cc318db7759ac2c6218b543e0ff3171","7cefcebc92f97400fb299e25b188cad18cb0054a2c5a1eee65adf4b52a393b0c"]},
+    {"name":"yb段位認定 三段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["ab48bfb1d9283cd417fc0b3e4a4ad940670a8de3ecf130df5af2723e70486eb8","1366415d5c8d48b080cc29f41a8e2dd09ea649038de845d5b29cd44a2ed66de4","0cf9a654a7a6dafd52fc66481520c0906983c1390b8374e01ad6d99d088ab0a5","6a91c4426605e565bb5e07001cfc5617510652c01c9e31ef2452d2e28e920790"]},
+    {"name":"yb段位認定 四段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["5ad3260aaaf07130dd042a866954f4b0a7f630f330bda96323c064c604ffc759","918e4f7d91bf0b7c74bce84713294f10d322d743fbf34a4e74a22ca45e7b3729","b0989cdd5659634b53fc60f5c09d1e2b4ff03f42959243951609161cc25540f2","afad38992868d8efa37e45c5b6c1db9704120153c41cb7fc874dccd43477d2c1"]},
+    {"name":"yb段位認定 五段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["48d46951aa233c82cab08522e2c7e4cfd6f3087db2182322f7555670d29dbcf9","611c85b244b4e94cbed040e13d0bac97069f1234c6fbf68533c17dea72ee8a2e","6c8d474a8d49999550225c58968c70f9bb7c0eb0f70b60b4b3d8988705c104d4","92e8d349bd6d27754a5c227e966b8a43d4310caafa760f478e78d3be248929cc"]},
+    {"name":"yb段位認定 六段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["f7ba74782d81c191a8e46383860f0e96e7a830a47cdf203b68d8cb92f872bd2a","1594f4686fd9e0c4c7eeb04708af1b8d91ec83eb051d3c8e5e233cf53c7d67c8","f19d32a13283f98c58dd49e0eeed9bc15706a6e7543e5be2b13130709d993e6d","ddb1d60b7e3dbb3859c5c2aa74a406109c33134ab5270a1efc886e777e112939"]},
+    {"name":"yb段位認定 七段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["38723dfb53586309dd76132400ebeb9ef9f320eaadc4d6c6864f93d39844f737","1480a3f8f971533d5522bd07231ce9b3d1c397c630c894e321b88a6f481f4c96","fa17c85bb2c6a55254de2cadc08e8828b41bc8e2a21712fbf0255f1a99e0229b","0e192562581a89df2166e8c77a0b097c560c64fe8514b78f40f6398f15cede04"]},
+    {"name":"yb段位認定 八段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["be3e022de1b9dfeb4cb00129ffa5cc5dfc359c3e624dddbbb425bc34f16ef29f","49787319bc3a2b4fd99c06a42ca1278e4edac0605537c503f767a2fed4ce0ac8","cee830dd014d72a1bce8e13b41bd3e0de499f59720db848ce0e53c9f72f42016","fdb98d14506b7758b3af7c07fbe91c4357814e1fa9b431cb2439d7de4e43e999"]},
+    {"name":"yb段位認定 九段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["f1b150a851f1187eecfa7cc1b68b5b99b26ba87fe66b27c61d32a9f895de0f4c","e6f1f9d6f68f48522537caea9d8be94622d0e617968cabbb9243a320228f080a","53d6a8fb00ea28a506ca281ec7f2ce403af0024c8569de03e03e1805cb5c4634","1c4e0b082c381fcfc694a93ad722df5a69b184d334792f8b2b65c4b2b53c3462"]},
+    {"name":"yb段位認定 十段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["b1aecc178145c6c5d88eb956b96d62afc75cab2781ced9fe68ce3d34ea3914eb","6164fcc7fec00e1b6dfe8f4846b6cd48bd89f691203734c3aa64c70f343a864a","9070bc2d30b4f8986bc149922f5f942e9141a1264494ead0d5582b2117b73405","0b892f213a0c77f1b75ceba270ae5550c0b8276a881e7ac13852a586796507ab"]}
   ]
 }
