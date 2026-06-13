@@ -9,6 +9,7 @@
   "columns": [
     { "header": "Lv", "type": "level", "align": "center" },
     { "header": "Title", "type": "link", "property": "title", "url": "https://mocha-repository.info/song.php?sha256={{sha256}}", "width": "40%", "align": "center" },
+    { "header": "Link", "type": "link", "property": "🔗", "url": "https://www.bms-ir.org/new/song?songmd5={{md5}}", "width": "25%" },
     { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}", "width": "20%", "align": "center" },
     { "header": "BPM", "type": "text", "property": "mergebpm", "width": "7%", "nowrap": true, "align": "center" },
     { "header": "Notes", "type": "text", "property": "notes", "width": "3%", "ellipsis": true, "align": "center" },
